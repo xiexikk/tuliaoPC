@@ -1,0 +1,132 @@
+
+/*vipList.html*/
+.merSearch .ser{ width:630px; padding: 50px 0;  margin:0 auto;}
+.merSearch .ser .box{ height:34px; display: inline-block;}
+.merSearch .ser .box input{ width:508px;height:32px; border:1px solid #ccc; font-size: 14px; float: left; padding:0 5px; }
+.merSearch .ser .box .btn{ width:110px; font-size: 14px; color:#fff; background-color: #3373f3; float: left; height:34px; cursor: pointer;}
+.merSearch .ser .tip{ margin-top: 20px;}
+.merSearch .ser .tip span{ float:left;}
+.merSearch .ser .tip span,.merSearch .ser .tip a{ font-size: 14px; }
+.merSearch .ser .tip ul{ float:left;}
+.merSearch .ser .tip ul li{ float:left; margin-left: 10px;}
+.merSearch .ser .tip ul li a:hover{ text-decoration: underline;}
+.merSearch .merList .tit{ text-align: center; padding:30px 0;}
+.merSearch .merList .tit h5{ font-size: 20px; padding-bottom: 15px; border-bottom: 2px solid #fc0823; display:inline-block;}
+.merSearch .merList .listCon{ background-color: #e9e9e9; overflow: hidden; margin-top: 30px;}
+.merSearch .merList .listCon ul{ overflow: hidden;}
+.merSearch .merList .listCon ul li{ width:300px; height:335px; padding:15px 0; float:left;}
+.merSearch .merList .listCon ul li .con{ width:260px; height:335px; margin:0 auto; overflow:hidden; position: relative; background-color: #fff; border-radius: 10px;}
+.merSearch .merList .listCon ul li .con:hover{ background-color: #F3F3F3;}
+.merSearch .merList .listCon ul li .con a.tp{ width:100%; height:220px;overflow:hidden;display:block; position:relative; -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);-moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);}
+.merSearch .merList .listCon ul li .con a.tp img{ width:100%; -webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;-o-transition: -o-transform 0.3s;transition: transform 0.3s;}
+.merSearch .merList .listCon ul li .con a:hover.tp img{-webkit-transform: scale(1.1);-moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1);transform: scale(1.1);}
+.merSearch .merList .listCon ul li .con a.tp .label{ color:#fff; padding:5px 14px; background-color: rgba(0, 0, 0, 0.5); border-radius: 14px; position:absolute; left:15px; top:20px;}
+.merSearch .merList .listCon ul li .con .name{ font-size: 14px; color:#666; margin-top: 15px; text-align: left;padding-left: 15px; width:245px; overflow: hidden;white-space: nowrap;text-overflow: ellipsis; }
+.merSearch .merList .listCon ul li .con .han{ position:absolute; bottom:20px; width:100%;}
+.merSearch .merList .listCon ul li .con .han p{ margin-left: 15px;}
+.merSearch .merList .listCon ul li .con .han .operat span{ color:#a9b7b7; margin-right: 10px;}
+.merSearch .merList .listCon ul li .con .han .operat span i{ display:inline-block; vertical-align: sub; margin-right: 5px; background-repeat: no-repeat; background-size: cover; cursor:pointer;}
+.merSearch .merList .listCon ul li .con .han .operat span.praise i.zanBtn{ background-image: url(../images/img-merber/zan.png); width:18px; height:18px; }
+.merSearch .merList .listCon ul li .con .han .operat span.praise i.zanBtn.zanBtned{ background-image: url(../images/img-merber/zaned.png);}
+.merSearch .merList .listCon ul li .con .han .operat span.mes i.mesBtn{ background-image: url(../images/img-merber/mes.png); width:18px; height:16px; }
+.merSearch .merList .listCon .clikMore{ margin:20px; height:50px; line-height: 50px; border-radius: 10px; background-color: #9f9f9f; text-align: center; font-size: 14px; color:#fff; cursor:pointer;}
+.merSearch .news{ padding:30px 0 50px;}
+.merSearch .news .hd{ padding:0 5px; overflow:hidden;}
+.merSearch .news .hd h5{ font-size: 20px; float:left; margin-right: 10px;}
+.merSearch .news .hd h5 i{ background:url(../images/img-merber/newsIco.png) no-repeat; width:25px ;height:27px; margin-right:5px; display:inline-block; vertical-align: middle;}
+.merSearch .news .hd a.more{ float:right; font-size: 14px; color:#999;}
+.merSearch .news .hd a:hover.more{ text-decoration: underline; color:#f00;}
+.merSearch .news .newList{ margin-top: 20px;overflow:hidden;}
+.merSearch .news .newList ul{ overflow:hidden;}
+.merSearch .news .newList ul li{ width:400px;float:left;}
+.merSearch .news .newList ul li .tp{ width:160px; height:110px; overflow:hidden; cursor:pointer;}
+.merSearch .news .newList ul li .tp img{ width:100%;}
+.merSearch .news .newList ul li .tp:hover{ opacity:0.8; filter: alpha(opacity=80);}
+.merSearch .news .newList ul li .txt{ margin-left: 20px; width:150px;}
+.merSearch .news .newList ul li .txt p{ line-height: 20px; cursor:pointer;}
+.merSearch .news .newList ul li .txt p:hover{ color:#B90000;}
+.merSearch .news .newList ul li .txt span{ color:#666; margin-top: 8px; display:block;}
+.merSearch .news .newList ul li .txt a.more{ color:#fc0404; margin-top: 8px; display:block;}
+.merSearch .news .newList ul li .txt a:hover.more{ text-decoration: underline;}
+.merSearch .news .newList ul li.li03{ width:340px;}
+
+/*listDet.html*/
+.merDet .perInf{ padding:50px 18px; overflow:hidden;}
+.merDet .perInf .tp{ width:375px; height:285px; overflow:hidden; margin-right: 40px;}
+.merDet .perInf .tp img{ width:100%;}
+.merDet .perInf .txt{ width:745px;overflow:hidden; position:relative; }
+.merDet .perInf .txt h5{ font-size: 30px;}
+.merDet .perInf .txt .label{ width:106px; height:34px; line-height: 34px; background-color: #f1a213; border-radius: 10px; margin-top: 25px; margin-bottom: 40px;}
+.merDet .perInf .txt .label span{ font-size: 16px; color:#fff;}
+.merDet .perInf .txt .label i{ background: url(../images/img-merber/label.png) no-repeat;  width:24px; height:23px; display:inline-block; vertical-align: sub; margin:2px 5px 0 10px;}
+.merDet .perInf .txt .signature{ color:#080808; font-size: 20px; line-height: 24px;}
+.merDet .perInf .txt .han{ position:absolute; right:40px; top:15px;}
+.merDet .perInf .txt .han p{ display:inline-block;}
+.merDet .perInf .txt .han p.praise{ margin-right: 70px;}
+.merDet .perInf .txt .han p span{ display:block; color:#a9b7b7; font-size: 24px; display:block; margin-top: 5px; text-align: center;}
+.merDet .perInf .txt .han p i{ display:inline-block; vertical-align: sub; margin-right: 5px; background-repeat: no-repeat; background-size: cover; cursor:pointer;}
+.merDet .perInf .txt .han p i.zanBtn{ background-image: url(../images/img-merber/zan.png); width:37px; height:36px; }
+.merDet .perInf .txt .han p i.zanBtn.zanBtned{ background-image: url(../images/img-merber/zaned.png);}
+.merDet .perInf .txt .han p i.mesBtn{ background-image: url(../images/img-merber/mes.png); width:37px; height:32px; }
+.merDet .storePic{ overflow:hidden;}
+.merDet .storePic .tit{ padding:0 18px; height:50px; line-height: 50px; font-size: 20px; background-color: #e9e9e9;}
+
+.merDet .storePic .picList{ padding:8px; background-color: #f4f5f7;}
+.merDet .storePic .picList ul.smallTp{ overflow:hidden;}
+.merDet .storePic .picList ul.smallTp li{ float:left; width:295px; height:295px; position:relative;}
+.merDet .storePic .picList ul.smallTp li .tp{ width:100%; height:100%; overflow:hidden; margin-right: 1px; margin-bottom: 1px; display:inline-block; cursor:pointer;}
+.merDet .storePic .picList ul.smallTp li .tp img{ width:100%; height:100%; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);}
+.merDet .storePic .picList ul.smallTp li .tp:hover img{ opacity:0.9; filter:alpha(opacity=90);}
+.merDet .mesCon{ margin-top: 70px; margin-bottom: 70px; overflow:hidden;}
+.merDet .mesCon .tit{ font-size: 20px;}
+.merDet .mesCon .mesList{ overflow:hidden; width:670px;}
+.merDet .mesCon .mesList ul{ overflow:hidden;}
+.merDet .mesCon .mesList ul li{ margin-top: 35px;}
+.merDet .mesCon .mesList ul li .tp{ width:50px; height:50px; overflow:hidden; float:left; position:relative;}
+.merDet .mesCon .mesList ul li .tp img{ width:100%;}
+.merDet .mesCon .mesList ul li .txt{ margin-left: 70px;font-size: 14px; }
+.merDet .mesCon .mesList ul li .txt .discuss{ position:relative;}
+.merDet .mesCon .mesList ul li .txt .name{ font-size: 14px; color:#183884; display:inline-block;}
+.merDet .mesCon .mesList ul li .txt .time{ color:#999;  margin-left: 5px;}
+.merDet .mesCon .mesList ul li .txt .bd{ margin-top: 5px; color:#050000;}
+.merDet .mesCon .mesList ul li .txt .discuss .han{ position:absolute; right:0; top:0;}
+.merDet .mesCon .mesList ul li .txt .discuss .han a:hover{ color:#f00;}
+.merDet .mesCon .mesList ul li .txt .repTaCon{ margin-top: 10px;}
+.merDet .mesCon .mesList ul li .txt .repTaCon textarea{width: 578px;height: 62px;border: 1px solid #999;padding: 10px;font-size: 14px;border-radius:4px;}
+.merDet .mesCon .mesList ul li .txt .repTaCon .sub{ text-align: right; margin-top: 5px;}
+.merDet .mesCon .mesList ul li .txt .repTaCon .sub button {width: 50px;height: 24px;line-height: 24px;text-align: center;border-radius: 4px;cursor: pointer;margin: 0 5px;}
+.merDet .mesCon .mesList ul li .txt .repTaCon .sub button.ensureSub{ color:#fff; background-color: #fd5a6c; }
+{color: #fff; background-color: #fd5a6c;}
+.merDet .mesCon .mesList ul li .txt .repTaCon .sub button.cancleSub{background-color: #BFBFBF;}
+
+.merDet .mesCon .mesList ul li .txt .reply{ padding:18px; background-color: #e9e9e9; margin-top: 20px; border-radius: 8px;}
+.merDet .mesCon .mesList .switch{ margin-top: 40px; text-align: center;}
+.merDet .mesCon .mesList .switch span{ width:32px; height:32px; display:inline-block; background-repeat: no-repeat; background-size: contain; margin-right: 20px; cursor:pointer;}
+.merDet .mesCon .mesList .switch span.prev{ background-image: url(../images/img-merber/prev.png);}
+.merDet .mesCon .mesList .switch span.next{ background-image: url(../images/img-merber/next.png);}
+.merDet .mesCon .mesList .switch span.prevNo{ background-image: url(../images/img-merber/prevNo.png);}
+.merDet .mesCon .mesList .switch span.nextNo{ background-image: url(../images/img-merber/nextNo.png);}
+.merDet .mesCon .mesBox textarea{ width:463px; height:168px; border:1px solid #ccc; padding:10px;  margin-top: 20px;}
+.merDet .mesCon .mesBox .bot{ margin-top: 10px; overflow:hidden;}
+.merDet .mesCon .mesBox .bot p{ margin-top: 5px; color:#183884;}
+.merDet .mesCon .mesBox .bot .btn{ width:105px; height:30px; line-height: :30px; text-align: center; color:#fff; background-color: #fd0101; cursor:pointer;}
+
+/*initiatorList.html*/
+.initCon .hdTit{ height: 30px; line-height: 30px; padding: 0 5px; margin-top: 25px;}
+.initCon .hdTit a{ font-size: 14px;}
+.initCon .hdTit a:hover{ text-decoration: underline;}
+.initCon .hdTit i{ background: url(../images/img-index/jt.png) no-repeat;width: 10px; height: 10px; display: inline-block; margin: 0 2px;}
+  
+.bigWrap{ width:100%; height:100%; position:fixed; left:0; top:0;  background-color: rgba(0,0,0,0.3); z-index: 55;}
+.wrapIn{ width:1100px; height:580px; padding:10px 50px; background-color: #fff;border-radius: 10px; position:absolute; left:50%; top:50%; margin-top: -300px; margin-left: -600px; }
+.bigWrap .bigTp{ overflow:hidden; width:100%; height:100%;}
+.bigWrap .bigTp li{ text-align: center; width:100%; height:100%; position:relative;}
+.bigWrap .bigTp li .tp{ text-align: center; overflow:hidden; display:block; width:100%; height:100%;}
+.bigWrap .bigTp li .tp img{ display:inline-block; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);}
+.bigWrap .close{ width:30px; height:30px; background: url(../images/img-merber/close.png) no-repeat; position:absolute; right:15px; top:10px; z-index: 3; cursor:pointer;}
+.bigWrap .dire span{ position:absolute; left:0; top:50%; z-index: 2; width:80px; height:80px; margin-top:-40px; cursor:pointer;}
+.bigWrap .dire span.prev{ left:20px;}
+.bigWrap .dire span.next{ left:auto; right:20px;}
+.bigWrap .dire span i{ background-repeat: no-repeat; background-size: contain; width:34px; height:58px; display:block; position:absolute; top:50%; margin-top: -29px;margin-left: 23px;  display:block;}
+.bigWrap .dire span.prev i{ background-image:url(../images/img-merber/left.png); }
+.bigWrap .dire span.next i{ background-image:url(../images/img-merber/right.png); }

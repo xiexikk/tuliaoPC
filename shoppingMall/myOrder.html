@@ -1,0 +1,872 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>涂料经销者联盟</title>
+<link rel="stylesheet" type="text/css" href="../css/base.css">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/mall.css">
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/mall.js"></script>
+</head>
+
+<body>
+
+<div id="topBar">
+    <div class="in w1200 m0a">
+        <div class="inL fl">
+            <em>您好，欢迎来中国涂料经销者联盟！</em><div class="loginNo"><a href="javascript:;">请登录</a><a href="javascript:;">免费注册</a></div>
+            <div class="loginYes"><span>麦兜兜</span><a href="javascript:;">退出</a></div>
+        </div>
+        <div class="inR fr">
+            <ul>                
+                <li class="li01">
+                    <a href="personalCenter.html"><i></i>个人中心</a>
+                </li>
+                <li class="li02">
+                    <a href="myOrder.html"><i></i>我的订单</a>
+                </li>
+                <li class="li03">
+                    <a href="shopCar.html"><i></i>购物车<em>0</em>件</a>
+                </li>
+                <li class="li04">
+                    <a href="systemMessages.html"><i></i>消息</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="header">
+    <div class="topHead w1200 m0a">
+        <div id="nav">
+            <ul>
+                <li><a href="../index.html"><span class="txt">联盟动态</span></a></li>
+                <li><a href="../memberCenter/vipList.html"><span class="txt">会员中心</span></a></li>
+                <li class="cur"><a href="../shoppingMall/mallIndex.html"><span class="txt">辅材商城</span></a></li>
+                <li><a href="../aboutUs/aboutUs.html"><span class="txt">关于我们</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="logoSer">
+    <div class="in w1200 m0a">
+        <div id="logo">
+        <h1>
+            <a href="../index.html" title="中国涂料经销者联盟">中国涂料经销者联盟</a>
+        </h1>
+        </div>
+        <div class="ser">
+            <div class="ser">
+                <div class="box">
+                    <input type="text" placeholder="涂料">
+                    <button class="btn" onClick="window.location.href='searchFoods.html'">搜索</button>
+                    <i class="ico"></i>
+                </div>
+                <div class="tip">
+                    <ul>
+                        <li><a href="javascript:;" style="color:#ff0320;">六一真情大放送</a></li>
+                        <li><a href="javascript:;">超级油漆刷</a></li>
+                        <li><a href="javascript:;">好到爆自动喷漆</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>   
+</div> 
+
+<div class="perCenter">
+    <div class="line"></div>
+    <div class="in w1200 m0a">
+        <div class="inL fl">
+            <div class="tab">
+                <ol>
+                    <li>
+                        <a href="personalCenter.html">
+                            <span>个人中心</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li class="cur">
+                        <a href="myOrder.html">
+                            <span>我的订单</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="favorites.html">
+                            <span>收藏夹</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="address.html">
+                            <span>收货地址</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="systemMessages.html">
+                            <span>系统消息</span>
+                            <i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chgPassword.html">
+                            <span>修改密码</span>
+                            <i></i>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="inR fr orderCon">
+            <div class="myOrder">
+                <div class="hd">
+                    <ol>
+                        <li class="cur"><span>全部订单</span><em>9</em></li>
+                        <li><span>待发货</span><em>2</em></li>
+                        <li><span>待付款</span><em>2</em></li>
+                        <li><span>待收货</span><em>3</em></li>
+                        <li><span>已完成</span><em>2</em></li>
+                    </ol>
+                </div>
+                <div class="bd">
+                    <div class="tiCon">
+                        <span class="ti ti01">订单号</span>
+                        <span class="ti ti02">商品信息</span>
+                        <span class="ti ti03">下单时间</span>
+                        <span class="ti ti04">小计</span>
+                        <span class="ti ti05">订单状态</span>
+                        <span class="ti ti06">操作</span>
+                    </div>
+                    <ul>
+                        <li class="allItem">
+                            <div class="item waitSend">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥128.00</span>
+                                    <span>（包邮）</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待发货</span>
+                                    <span><a href="orderDetWfh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti06">
+                                    <span><a href="javascript:;" class="warnTip">提醒发货</a></span>
+                                </div>
+                            </div>
+                            <div class="item waitPay">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>    
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥133.00</span>
+                                    <span>含运费5元</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待付款</span>
+                                    <span><a href="orderDetWfk.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti03 ti06">
+                                    <span class="sp1"><a href="javascript:;" class="cancleOrder">取消订单</a></span>
+                                    <span><a href="foodsPay.html" class="goPay" title="去付款">去付款</a></span>
+                                </div>
+                            </div>
+                            <div class="item waitTake">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥133.00</span>
+                                    <span>含运费5元</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待收货</span>
+                                    <span><a href="orderDetDsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti03 ti06">
+                                    <span class="sp1">
+                                        <button type="button" class="suerTake" onClick="window.location.href='orderEvaluateQrsh.html'">确认收货</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item completed noEvaluate">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥125.00</span>
+                                    <span>（包邮）</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">已完成</span>
+                                    <span><a href="orderDetYsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti06">
+                                    <span class="sp1"><a href="javascript:;" class="returnGoods" style="color:#f00;">请退货</a>
+                                    </span>
+                                    <span class="sp2"><a href="javascript:;" class="delOrder">删除订单</a>
+                                    </span>
+                                    <span class="sp3">
+                                        <button type="button" class="goEvaluate" title="去评价" onClick="window.location.href='orderEvaluate.html'">评价</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item completed evaluated">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥125.00</span>
+                                    <span>（包邮）</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">已完成</span>
+                                    <span><a href="orderDetYsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti06">
+                                    <span class="sp1"><a href="javascript:;" class="aplAeturnGoods" style="color:#f00;">申请退货</a>
+                                    </span>
+                                    <span class="sp2"><a href="javascript:;" class="delOrder">删除订单</a>
+                                    </span>
+                                    <span class="sp3">
+                                        <button type="button" class="evaluate">已评价</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="waitSendItem">
+                            <div class="item waitSend">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥128.00</span>
+                                    <span>（包邮）</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待发货</span>
+                                    <span><a href="orderDetWfh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti06">
+                                    <span><a href="javascript:;" class="warnTip">提醒发货</a></span>
+                                </div>
+                            </div>
+                            <div class="item waitSend">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥128.00</span>
+                                    <span>（包邮）</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待发货</span>
+                                    <span><a href="orderDetWfh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti06">
+                                    <span><a href="javascript:;" class="warnTip">提醒发货</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="waitPayItem">
+                            <div class="item waitPay">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥133.00</span>
+                                    <span>含运费5元</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待付款</span>
+                                    <span><a href="orderDetWfk.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti03 ti06">
+                                    <span class="sp1"><a href="javascript:;" class="cancleOrder">取消订单</a></span>
+                                    <span><a href="foodsPay.html" class="goPay" title="去付款">去付款</a></span>
+                                </div>
+                            </div>
+                            <div class="item waitPay">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥133.00</span>
+                                    <span>含运费5元</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待付款</span>
+                                    <span><a href="orderDetWfk.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti03 ti06">
+                                    <span class="sp1"><a href="javascript:;" class="cancleOrder">取消订单</a></span>
+                                    <span><a href="foodsPay.html" class="goPay" title="去付款">去付款</a></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="waitTakeItem">
+                            <div class="item waitTake">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥133.00</span>
+                                    <span>含运费5元</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待收货</span>
+                                    <span><a href="orderDetDsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti03 ti06">
+                                    <span class="sp1">
+                                        <button type="button" class="suerTake" onClick="window.location.href='orderEvaluateQrsh.html'">确认收货</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item waitTake">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥133.00</span>
+                                    <span>含运费5元</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待收货</span>
+                                    <span><a href="orderDetDsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti03 ti06">
+                                    <span class="sp1">
+                                        <button type="button" class="suerTake" onClick="window.location.href='orderEvaluateQrsh.html'">确认收货</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item waitTake">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥133.00</span>
+                                    <span>含运费5元</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">待收货</span>
+                                    <span><a href="orderDetDsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti03 ti06">
+                                    <span class="sp1">
+                                        <button type="button" class="suerTake" onClick="window.location.href='orderEvaluateQrsh.html'">确认收货</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="completedItem">
+                            <div class="item completed noEvaluate">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥125.00</span>
+                                    <span>（包邮）</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">已完成</span>
+                                    <span><a href="orderDetYsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti06">
+                                    <span class="sp1"><a href="javascript:;" class="returnGoods" style="color:#f00;">请退货</a>
+                                    </span>
+                                    <span class="sp2"><a href="javascript:;" class="delOrder">删除订单</a>
+                                    </span>
+                                    <span class="sp3">
+                                        <button type="button" class="goEvaluate" title="去评价" onClick="window.location.href='orderEvaluate.html'">评价</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item completed evaluated">
+                                <div class="ti ti01">
+                                    <span>S2015202164</span>
+                                </div>
+                                <div class="ti ti02">
+                                    <a href="javascript:;" class="pro">
+                                        <div class="pic">
+                                            <img src="../images/img-mall/prd01.png">
+                                        </div>
+                                        <div class="txt">
+                                            <p>三棵树漆 乳胶漆 净味竹炭墙面漆 白色 内墙乳胶漆墙漆 油漆涂料</p>
+                                            <div class="tx">
+                                                <span>￥128.00</span>
+                                                <span>数量<em>1</em></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ti ti03">
+                                    <span class="sp1">2016/05/23</span>
+                                    <span>10:26:28</span>
+                                </div>
+                                <div class="ti ti03 ti04">
+                                    <span class="sp1">￥125.00</span>
+                                    <span>（包邮）</span>
+                                </div>
+                                <div class="ti ti03 ti05">
+                                    <span class="sp1">已完成</span>
+                                    <span><a href="orderDetYsh.html" class="chatOrdDet">订单详情</a></span>
+                                </div>
+                                <div class="ti ti06">
+                                    <span class="sp1"><a href="javascript:;" class="aplAeturnGoods" style="color:#f00;">申请退货</a>
+                                    </span>
+                                    <span class="sp2"><a href="javascript:;" class="delOrder">删除订单</a>
+                                    </span>
+                                    <span class="sp3">
+                                        <button type="button" class="evaluate">已评价</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pages">
+                        <div id="Pagination"></div>
+                        <div class="searchPage">
+                          <span class="page-sum">共<em class="allPage">3</em>页</span>
+                          <span class="page-go">跳转<input type="text">页</span>
+                          <a href="javascript:;" class="page-btn">GO</a>
+                        </div>
+                    </div>
+                    <script src="../js/jquery.pagination.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $("#Pagination").pagination("3");
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 申请退货 -->
+<div class="aplWrap">
+    <div class="retCon">
+        <div class="in">
+            <div class="hdTit">申请退货</div>
+            <div class="cen">
+                <div class="hint">工作人员将在三个工作日内做出处理。请耐心等待。</div>
+                <div class="reason">
+                    <p class="ti">*退货原因</p>
+                    <textarea name="" placeholder=""></textarea>
+                </div>
+                <div class="upLoad">
+                     <p class="ti">上传凭证（最多4张）</p>
+                     <div class="pic">
+                        <div class="addPicBtn">
+                            <input type="file" accept="image/*" multiple id="upLoadPic">
+                            <label for="upLoadPic"></label>
+                        </div>
+                        <ul class="myTp">
+                        </ul>
+                     </div>
+                </div>
+            </div>
+            <div class="btn">
+                <button type="button" class="keep">保存</button>
+                <button type="button" class="cancle">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 请退货 -->
+<div class="returnWrap">
+    <div class="retCon">
+        <div class="in">
+            <div class="hdTit">请退货</div>
+            <div class="cen">
+                <div class="hint">请正确填写退货信息</div>
+                <div class="wl">
+                    <p class="ti">*物流订单号</p>
+                    <input type="text" class="wlOrd" placeholder="">    
+                </div>
+                <div class="wl">
+                    <p class="ti">*物流公司</p>
+                    <input type="text" class="wlCompany" placeholder="">    
+                </div>
+                <p class="tell">我们将在收获退货商品后，将金额退还到您的支付账号上。</p>
+            </div>
+            <div class="btn">
+                <button type="button" class="keep">保存</button>
+                <button type="button" class="cancle">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="service">
+    <div class="in w1200 m0a" style="margin-top:0;">
+        <div class="inf">
+            <div class="pic fl">
+                <a href="javascript:;"><img src="../images/img-index/bot01.png"></a>
+            </div>
+            <div class="txt fl">
+                <h6>涂饰商情网</h6>
+                <span class="sp1">战略合作伙伴</span>
+                <span class="sp2">关于我们</span>
+            </div>
+        </div>
+        <div class="inf">
+            <div class="pic fl"  style="margin-right:70px;">
+                <a href="javascript:;"><img src="../images/img-index/appEwm.png"></a>
+            </div>
+        </div>
+        <div class="inf">
+            <div class="pic fl">
+                <a href="javascript:;"><img src="../images/img-index/bot01.png"></a>
+            </div>
+            <div class="txt fl">
+                <h6>涂饰商情网</h6>
+                <span class="sp1">战略合作伙伴</span>
+                <span class="sp2">关于我们</span>
+            </div>
+        </div>
+        <div class="inf">
+            <div class="pic fl">
+                <a href="javascript:;"><img src="../images/img-index/appEwm.png"></a>
+            </div>
+        </div>
+        <div class="inf inf2">
+            <div class="txt">
+                <h6><i></i>020-3479882</h6>
+                <span>咨询;每天9:000~17:00</span>
+                <span>法定节假休息日</span>
+                <span>Email：tushi365@126.com</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="in w1200 m0a">
+        <div class="txt">
+            <p>广州涂料经销联盟有限责任公司 涂料经销商联盟网 权限所有</p>
+            <p>全国统一咨询：020-34798842  备ICP13048962号</p>
+        </div>
+    </div>
+</div>
+
+<!-- 右侧栏目 -->
+<div id="sidebar">
+    <div class="per">
+        <a href="personalCenter.html" class="item my">
+            <i></i>
+            <div class="ti">个人中心<span class="arr">◆</span></div>   
+        </a>
+        <a href="shopCar.html" class="item buyCar">
+            <i></i>
+            <span>购物车</span>
+            <em class="num">0</em>
+        </a>
+        <a href="favorites.html" class="item star">
+            <i></i>
+            <div class="ti">收藏夹<span class="arr">◆</span></div>   
+        </a>
+    </div>
+    <div class="bot">
+        <a href="javascript:;" class="item ser">
+            <i></i>
+            <div class="ti">在线咨询</div>   
+        </a>
+        <a href="javascript:;" class="item backTop">
+            <i></i>
+            <div class="ti">返回顶部<span class="arr">◆</span></div>   
+        </a>
+    </div>
+</div>
+
+<!-- 退货弹窗显示与隐藏 -->
+<script>
+    $(function(){
+        $('.returnWrap').hide();
+        $('.aplWrap').hide();
+        function fadeTo(aClick,wrap,btn){
+            $(aClick).click(function(event) {
+                $(wrap).fadeIn(200);
+            });
+            $(btn).click(function(event) {
+                $(wrap).fadeOut(200);
+            });
+        }
+        fadeTo('.returnGoods','.returnWrap','.cancle');
+        fadeTo('.aplAeturnGoods','.aplWrap','.cancle');
+    });
+</script>
+<!-- 上传凭证照片-->
+<script type="text/javascript">
+$(function() {
+    $("#upLoadPic").change(function() {
+        var $file = $(this);
+        var fileObj = $file[0];
+        var windowURL = window.URL || window.webkitURL;
+        var dataURL;
+        //获取 呈现图片位置
+        var ImgDom=$file.parents(".upLoad .pic").find("ul");
+        //图片的数量
+        var Imglength=fileObj.files.length;
+        for(var i=0;i<Imglength;i++){
+            dataURL = windowURL.createObjectURL(fileObj.files[i]);
+            var _html='<li>'+
+                        '<span class="tp">'+
+                            '<img src="'+dataURL+'" >'+
+                        '</span>'+
+                        '<i class="del" onclick="delImg($(this));"></i>'    
+            ImgDom.append(_html);
+        }
+        });
+    });
+    //删除图片
+    function delImg(self){
+        self.parents("ul.myTp li").remove();    
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>涂料经销者联盟</title>
+<link rel="stylesheet" type="text/css" href="../css/base.css">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/mall.css">
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/mall.js"></script>
+</head>
+
+<body>
+
+<div id="topBar">
+    <div class="in w1200 m0a">
+        <div class="inL fl">
+            <em>您好，欢迎来中国涂料经销者联盟！</em><div class="loginNo"><a href="javascript:;">请登录</a><a href="javascript:;">免费注册</a></div>
+            <div class="loginYes"><span>麦兜兜</span><a href="javascript:;">退出</a></div>
+        </div>
+        <div class="inR fr">
+            <ul>                
+                <li class="li01">
+                    <a href="personalCenter.html"><i></i>个人中心</a>
+                </li>
+                <li class="li02">
+                    <a href="myOrder.html"><i></i>我的订单</a>
+                </li>
+                <li class="li03">
+                    <a href="shopCar.html"><i></i>购物车<em>0</em>件</a>
+                </li>
+                <li class="li04">
+                    <a href="systemMessages.html"><i></i>消息</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="header">
+    <div class="topHead w1200 m0a">
+        <div class="topRegLog">
+            <div class="logYes fl">
+                <p>欢迎麦兜兜</p>
+                <a href="javascript:;" class="exit">退出</a>
+            </div>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="../index.html"><span class="txt">联盟动态</span></a></li>
+                <li><a href="../memberCenter/vipList.html"><span class="txt">会员中心</span></a></li>
+                <li class="cur"><a href="../shoppingMall/mallIndex.html"><span class="txt">辅材商城</span></a></li>
+                <li><a href="../aboutUs/aboutUs.html"><span class="txt">关于我们</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="logoSer">
+    <div class="in w1200 m0a">
+        <div id="logo">
+        <h1>
+            <a href="../index.html" title="中国涂料经销者联盟">中国涂料经销者联盟</a>
+        </h1>
+        </div>
+        <div class="progress">
+            <ol>
+                <li class="cur">
+                    <div class="tp">
+                        <span class="fl nu">
+                            <em>1</em>
+                        </span>
+                        <span class="fl line">
+                            <p></p>
+                        </span>
+                    </div>
+                    <div class="tx">
+                        <span>1.我的购物车</span>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="tp">
+                        <span class="fl nu">
+                            <em>2</em>
+                        </span>
+                        <span class="fl line">
+                            <p></p>
+                        </span>
+                    </div>
+                    <div class="tx">
+                        <span>2.填写订单信息</span>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="tp">
+                        <span class="fl nu">
+                            <em>3</em>
+                        </span>
+                        <span class="fl line">
+                            <p></p>
+                        </span>
+                    </div>
+                    <div class="tx">
+                        <span>3.付款</span>
+                    </div>
+                </li>
+                <li class="">
+                    <div class="tp">
+                        <span class="fl nu">
+                            <em>4</em>
+                        </span>
+                    </div>
+                    <div class="tx">
+                        <span>4.等待发货</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>   
+</div>
+
+<div class="carCon">
+    <div class="line"></div>
+    <div class="in w1200 m0a">
+        <div class="hdTi">
+            <i></i><span>购物车</span>
+        </div>
+        <div class="carPro">
+            <div class="hd">
+                <div class="fl tx">确认商品信息</div>
+                <div class="fr count">
+                    <p class="p1">已选择<em id="proNum">2</em>件商品</p>
+                    <p class="p2">需支付<em id="proPrice">￥248.00</em>（不含运费）</p>
+                    <div class="btn">
+                        <button type="button" class="settleBtn" onClick="window.location.href='selAddress.html'">结算</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cen">
+                <div class="hed">
+                    <ol>
+                        <li class="ti01">
+                            <input type="checkbox" class="allCheck">
+                            <span>全选</span>
+                        </li>
+                        <li class="ti02">
+                            <span>商品</span>
+                        </li>
+                        <li class="ti03">
+                            <span>规格</span>
+                        </li>
+                        <li class="ti04">
+                            <span>单价</span>
+                        </li>
+                        <li class="ti05">
+                            <span style="margin-left:17px;">数量</span>
+                        </li>
+                        <li class="ti06">
+                            <span>小计</span>
+                        </li>
+                    </ol>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li class="ti01">
+                            <input type="checkbox" class="check">
+                        </li>
+                        <li class="ti02">
+                            <span class="pic">
+                                <img src="../images/img-mall/pr01.jpg">
+                            </span>
+                            <p class="txt">森绿水性环保呼吸涂料油漆乳胶漆彩色油漆修补墙漆木器金属漆包邮</p>
+                        </li>
+                        <li class="ti03">
+                            <div class="tx">
+                                <p class="p1">颜色：红色</p>
+                                <p class="p2">容量：20升</p>
+                            </div>
+                        </li>
+                        <li class="ti04">
+                            <p>124.00</p>
+                        </li>
+                        <li class="ti05">
+                            <div class="han">
+                                <span class="reduceBtn"></span>
+                                <div class="inp"><input type="text" value="1"></div>
+                                <span class="addBtn"></span>
+                            </div>
+                        </li>
+                        <li class="ti06">
+                            <p>￥124</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="ti01">
+                            <input type="checkbox" class="check">
+                        </li>
+                        <li class="ti02">
+                            <span class="pic">
+                                <img src="../images/img-mall/pr01.jpg">
+                            </span>
+                            <p class="txt">森绿水性环保呼吸涂料油漆乳胶漆彩色油漆修补墙漆木器金属漆包邮</p>
+                        </li>
+                        <li class="ti03">
+                            <div class="tx">
+                                <p class="p1">颜色：红色</p>
+                                <p class="p2">容量：20升</p>
+                            </div>
+                        </li>
+                        <li class="ti04">
+                            <p>124.00</p>
+                        </li>
+                        <li class="ti05">
+                            <div class="han">
+                                <span class="reduceBtn"></span>
+                                <div class="inp"><input type="text" value="1"></div>
+                                <span class="addBtn"></span>
+                            </div>
+                        </li>
+                        <li class="ti06">
+                            <p>￥124</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hd hd2">
+                <div class="fl sel">
+                    <p class="che"><input type="checkbox" class="allCheck"><span>全选</span></p>
+                    <span class="del"><a href="javascript:;">删除</a></span>
+                </div>
+                <div class="fr count">
+                    <p class="p1">已选择<em id="proNum">2</em>件商品</p>
+                    <p class="p2">需支付<em id="proPrice">￥248.00</em>（不含运费）</p>
+                    <div class="btn">
+                        <button type="button" class="settleBtn settleBtn2" onClick="window.location.href='subOrders.html'">结算</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="service">
+    <div class="in w1200 m0a" style="margin-top:0;">
+        <div class="inf">
+            <div class="pic fl">
+                <a href="javascript:;"><img src="../images/img-index/bot01.png"></a>
+            </div>
+            <div class="txt fl">
+                <h6>涂饰商情网</h6>
+                <span class="sp1">战略合作伙伴</span>
+                <span class="sp2">关于我们</span>
+            </div>
+        </div>
+        <div class="inf">
+            <div class="pic fl"  style="margin-right:70px;">
+                <a href="javascript:;"><img src="../images/img-index/appEwm.png"></a>
+            </div>
+        </div>
+        <div class="inf">
+            <div class="pic fl">
+                <a href="javascript:;"><img src="../images/img-index/bot01.png"></a>
+            </div>
+            <div class="txt fl">
+                <h6>涂饰商情网</h6>
+                <span class="sp1">战略合作伙伴</span>
+                <span class="sp2">关于我们</span>
+            </div>
+        </div>
+        <div class="inf">
+            <div class="pic fl">
+                <a href="javascript:;"><img src="../images/img-index/appEwm.png"></a>
+            </div>
+        </div>
+        <div class="inf inf2">
+            <div class="txt">
+                <h6><i></i>020-3479882</h6>
+                <span>咨询;每天9:000~17:00</span>
+                <span>法定节假休息日</span>
+                <span>Email：tushi365@126.com</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="in w1200 m0a">
+        <div class="txt">
+            <p>广州涂料经销联盟有限责任公司 涂料经销商联盟网 权限所有</p>
+            <p>全国统一咨询：020-34798842  备ICP13048962号</p>
+        </div>
+    </div>
+</div>
+
+<!-- 右侧栏目 -->
+<div id="sidebar">
+    <div class="per">
+        <a href="personalCenter.html" class="item my">
+            <i></i>
+            <div class="ti">个人中心<span class="arr">◆</span></div>   
+        </a>
+        <a href="shopCar.html" class="item buyCar">
+            <i></i>
+            <span>购物车</span>
+            <em class="num">0</em>
+        </a>
+        <a href="favorites.html" class="item star">
+            <i></i>
+            <div class="ti">收藏夹<span class="arr">◆</span></div>   
+        </a>
+    </div>
+    <div class="bot">
+        <a href="javascript:;" class="item ser">
+            <i></i>
+            <div class="ti">在线咨询</div>   
+        </a>
+        <a href="javascript:;" class="item backTop">
+            <i></i>
+            <div class="ti">返回顶部<span class="arr">◆</span></div>   
+        </a>
+    </div>
+</div>
+
+<!-- 购物车 -->
+<script>
+    $(function(){
+        function selCheck(allCheck,check){
+            $(allCheck).click(function(event) {
+                if($(check).attr('checked') != 'checked'){
+                    $(check).attr('checked', 'checked');
+                    $(allCheck).attr('checked', 'checked');
+                }else{
+                    $(check).removeAttr('checked');
+                    $(allCheck).removeAttr('checked');
+                }   
+            });
+            var chkNum = $(check).size();
+            $(check).click(function(event) {
+                var chk = 0;
+                for( var i = 0; i < chkNum; i++){
+                    if($(check).eq(i).attr('checked')){
+                        chk++;
+                    }
+                }
+                if(chkNum == chk){
+                    $(allCheck).attr('checked','checked')
+                }else{
+                    $(allCheck).removeAttr('checked');
+                }
+            });
+        }
+        selCheck('.allCheck','.check');
+    });
+</script>
+
+</body>
+</html>

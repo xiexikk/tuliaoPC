@@ -1,0 +1,115 @@
+
+/*顶部*/
+#topBar{ height:30px; line-height: 30px; overflow:hidden; background-color: #f2f2f2; border-bottom:1px solid #e5e5e5;}
+#topBar .in{ color: #999;}
+#topBar .in a{ color:#999;}
+#topBar .in a:hover{ color:#f00;}
+#topBar .in .inL div{ display:inline-block;}
+#topBar .in .inL div.loginYes span{ color:#D40000;}
+#topBar .in .inL a{ padding:0 10px;}
+#topBar .in .inR ul{ overflow:hidden; margin-right: 50px;}
+#topBar .in .inR ul li{ float:left; padding:0 10px;}
+#topBar .in .inR ul li em{ margin:0 1px; color:#f00;}
+#topBar .in .inR ul li i{ width:14px; height:14px; background-repeat: no-repeat; display:inline-block; vertical-align: text-top; margin:0 3px; background-image: url(../images/img-mall/topBarIco.png); }
+#topBar .in .inR ul li.li01 i{ background-position:left top;}
+#topBar .in .inR ul li.li02 i{ background-position:right top;}
+#topBar .in .inR ul li.li03 i{ background-position:left bottom;}
+#topBar .in .inR ul li.li04 i{ background-position:right bottom;}
+/*logo和导航*/
+#header{ height: 80px; overflow:hidden; background-color: #f4f5f7; }
+.topHead{ overflow:hidden;}
+#logo{ width:226px; height:53px; background:url(../images/img-index/logo.png) no-repeat; display:block; margin-top: 15px; float:left; }
+#logo a{ width:226px; height:0px; padding-top:53px; overflow:hidden; display:block;}
+#nav{ float:right;}
+#nav ul{ overflow:hidden;line-height: 80px; }
+#nav ul li{ float:left; margin-right: 60px; position: relative;}
+#nav ul li a{ font-size: 20px; display:block; }
+#nav ul li.cur a{ color:#f00; transition: all .2s linear;-webkit-transition: all .2s linear;-moz-transition: all .2s linear;-o-transition: all .2s linear;-ms-transition: all .2s linear;}
+
+/*底部商家信息*/
+#service{ background-color: #f4f5f7; }
+#service .in{ padding:30px 0; margin-top: 60px; overflow:hidden;}
+#service .in .inf{ float:left;}
+#service .in .inf .pic{ margin-right: 30px;}
+#service .in .inf .pic a{ width:115px; height:115px; overflow:hidden; }
+#service .in .inf .txt { margin-right: 48px; text-align: center;}
+#service .in .inf .txt h6{ font-size: 20px; margin-top: 10px;}
+#service .in .inf .txt span{ display:block; margin-top: 10px;}
+#service .in .inf .txt span.sp2{ margin-top: 15px;}
+#service .in .inf2 i{ background: url(../images/img-index/ph.png) no-repeat; width:20px; height:18px; display:inline-block; vertical-align: middle; margin-right: 20px;}
+#service .in .inf2 .txt{ margin-top: 10px; margin-left: 75px; margin-right: 15px;}
+#service .in .inf2 .txt span{ margin-top: 5px; margin-left: 40px;}
+
+/*底部版权*/
+#footer .in{ height:100px; overflow:hidden;}
+#footer .in .txt{ overflow:hidden; text-align: center; margin-top: 25px;}
+#footer .in .txt p{color:#020304; line-height: 24px;}
+
+/*悬浮-登录注册*/
+#register{ display:none;}
+#login{ display:none;}
+#forPwd{ display:none;}
+.regLog{ width:100%; height:100%; position:fixed; left:0; top:0; background-color: rgba(0, 0, 0, 0.2); z-index: 8; }
+.regLog .regLogBox{ width:400px; height:480px; background-color: #fff; position:fixed; left:50%; top:50%; margin-left: -200px; margin-top: -240px;border:1px solid #ccc; }
+.regLog .regLogBox .hd{ height:30px; line-height: 30px; background-color: #e6e7e8; border-bottom: 1px solid #ccc; }
+.regLog .regLogBox .hd h3{ font-size: 16px; padding-left: 25px;}
+.regLog .regLogBox .hd .close{ background: url(../images/img-index/close.png) no-repeat; width:12px; height:12px; position:absolute; right:10px; top:9px; cursor:pointer;}
+.regLog .regLogBox .bd{ margin-top: 50px;} 
+.regLog .regLogBox .bd .box{ width:280px; margin:0 auto; margin-bottom: 18px;background-color: #fff; position:relative;}
+.regLog .regLogBox .bd .box input{ padding-left:40px; width:230px; height:32px; border:1px solid #DADADA; font-size: 12px; padding-right: 8px;}
+.regLog .regBox .bd .box input:focus{ border-color: #d71329;}
+.regLog .regBox .bd .box .ico{ background-repeat: no-repeat; position:absolute; left:10px; top:8px;} 
+.regLog .regBox .bd .box.box1 .ico{ background-image:url(../images/img-index/phIco.png);width:13px; height:18px; }
+.regLog .regBox .bd .box.box2 .ico{ background-image:url(../images/img-index/pwdIco.png);width:15px; height:18px; }
+.regLog .regBox .code{ width:280px; margin:0 auto; overflow:hidden;}
+.regLog .regBox .code .inp{ width:170px; overflow:hidden; float:left;}
+.regLog .regBox .code .inp input{ width:152px; height:32px; line-height:32px; border:1px solid #DADADA; font-size: 12px; padding:0 8px; }
+.regLog .regBox .code .inp input:focus{ border-color: #d71329;}
+.regLog .regBox .code .inp input.getCode{ width:98px; height:34px; line-height: 34px; border-color: #ff001b; color:#ff001b; background-color: #fff; cursor:pointer;}
+.regLog .regBox .code .inp2{ width:100px; float:right;}
+.regLog .regBox .btn{ text-align: center; margin-top: 30px; overflow:hidden;}
+.regLog .regBox .btn button{ font-size: 16px; color:#fff; width:280px; height:32px; line-height: 32px; background-color: #ff001b; cursor:pointer;}
+.regLog .regBox .go{ position:absolute; right:15px; bottom:15px;}
+.regLog .regBox .go a{ font-size: 14px; color:#999;}
+.regLog .regBox .go a:hover{ color:#ff001b; text-decoration: underline;}
+.regLog .boxBt{ margin:0 auto; margin-bottom: 15px; width:280px; overflow:hidden; }
+.regLog .boxBt a{ color:#999;}
+.regLog .boxBt a:hover{ color:#ff001b; text-decoration: underline;}
+.regLog .accredit{  margin:0 auto; margin-top: 30px; width:280px; overflow:hidden; }
+.regLog .accredit p{font-size: 14px; color:#999;}
+.regLog .accredit ul{ margin-top: 35px; margin-left: 70px; overflow:hidden;}
+.regLog .accredit ul li{ float:left; margin-right: 60px;}
+.regLog .accredit ul li a{ display:block; text-align: center; width:35px; }
+.regLog .accredit ul li a span{ font-size: 14px; color:#999; margin-top: 5px;}
+
+/*翻页1 .2 . 3 ~*/
+#pageGro{ overflow:hidden; margin-top:30px; float:right; }
+#pageGro.cb{ margin-right: 100px; }
+#pageGro.cb2{ margin-right: 0;}
+#pageGro div,#pageGro div ul li{ font-size:12px; color:#999; line-height:23px; float:left; margin-left:5px;}
+#pageGro div ul li{ width:22px; text-align:center; border:1px solid #999; cursor:pointer;}
+#pageGro div ul li.on{ color:#fff; background:#fc0823; border:1px solid #fc0823;}
+#pageGro .pageUp,#pageGro .pageDown{padding:0 5px; border:1px solid #999; cursor:pointer;}
+
+/*翻页1 .2 . 3 , Go~*/
+.pages { margin: 20px auto 0; overflow: hidden; float: right; }
+.pages #Pagination { float: left; overflow: hidden; }
+.pages #Pagination .pagination { overflow: hidden; text-align: right; }
+.pages #Pagination .pagination a, .pages #Pagination .pagination span { float: left; display: inline; padding: 4px 8px; border: 1px solid #e6e6e6; border-right: none; background: #f6f6f6; color: #666666; cursor: pointer; }
+.pages #Pagination .pagination .current { background: #ffba00; color: #fff; }
+.pages #Pagination .pagination .prev, .pages #Pagination .pagination .next {float: left;border: 1px solid #e6e6e6; background: #f6f6f6;color: #666666; }
+.pages #Pagination .pagination .prev { border-right: none; }
+.pages #Pagination .pagination .pagination-break { border: none; border-left: 1px solid #e6e6e6; background: none; cursor: default; }
+.pages .searchPage { float: left; padding: 2px 0; }
+.pages .searchPage .page-sum { padding: 5px 13px; }
+.pages .searchPage .page-go { padding: 2px 0; }
+.pages .searchPage .page-go input { width: 21px; height: 20px; margin: 0 5px; padding-left: 5px; border: 1px solid #e4e4e4; }
+.pages .searchPage .page-btn { margin: 9px 0 5px 5px; padding: 2px 5px; background: #FA2028; border-radius: 2px; color: #ffffff;text-decoration: none; }
+
+/*广告*/
+.advPop{ position: fixed; left: 0; top:0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.2); z-index: 99999999; display: none;}
+.advPop .in{ width: 100%; }
+.advPop .in .close{ width: 40px; height: 40px; background: url("../images/img-index/closegz.png") no-repeat; background-size: cover; position: absolute; right: 8%; top: 10%; cursor: pointer;}
+.advPop .pic{ width: 80%; height: auto; overflow: hidden; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);}
+.advPop .pic a{ width: 100%; height: 100%; overflow: hidden;}
+.advPop .pic img{ width: 100%;}

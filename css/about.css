@@ -1,0 +1,34 @@
+
+/*aboutUs.html*/
+.aboutUs{ background-color:#ebebeb;}
+.aboutUs .in{ padding:70px 0; overflow:hidden;}
+.aboutUs .in .inL{ padding-left: 20px; padding-right: 60px; width:670px;}
+.aboutUs .in .inL .page h3{ font-size: 40px; margin-top: 40px; margin-bottom: 30px;}
+.aboutUs .in .inL .page h3 span{ color:#c8c6c6;}
+.aboutUs .in .inL .page h4{ padding-left: 10px; font-size: 18px;margin-bottom: 30px;}
+.aboutUs .in .inL .page p{ line-height: 32px; font-size: 16px; margin-bottom: 30px; text-indent: 2em;}
+.aboutUs .in .inR{ width:450px; overflow:hidden;}
+.aboutUs .in .inR .tp{ width:100%;}
+.aboutUs .in .inR .tp img{ max-width: 450px;}
+.aboutUs .in .inR .txt{ padding-top: 10px;}
+.aboutUs .in .inR .txt p{ font-size: 20px; margin-top: 25px; padding-left: 90px;}
+.aboutUs .in .inR .txt p i{ background-repeat: no-repeat; display:inline-block; vertical-align: middle; margin-right: 10px; margin-top: -5px; }
+.aboutUs .in .inR .txt p.p1 i{ background-image:url(../images/img-about/posIco.png); width:33px; height:41px;}
+.aboutUs .in .inR .txt p.p2 i{ background-image:url(../images/img-about/tel.png); width:23px; height:20px; margin-right: 20px;}
+.aboutUs .in .inR .txt p.p3 i{ background-image:url(../images/img-about/email.png); width:22px; height:16px; margin-right: 20px;}
+.postCon { background-color: #757575; overflow:hidden;}
+.postCon .item ul{ overflow:hidden; width:100%; padding:25px 0;}
+.postCon .item ul li{ width:33.33%; float:left; text-align: center;}
+.postCon .item ul li span{ color:#fff; display:block;}
+.postCon .item ul li .sp1{ font-size: 20px; margin-bottom: 5px;}
+.postCon .item ul li .sp{ font-size: 16px; line-height: 24px;}
+.feedback .mesIn{ padding:40px 10px 50px; overflow:hidden;}
+.feedback .mesIn .tit{ font-size: 30px;}
+.feedback .mesIn .inpCon .inp{ margin-top: 40px;}
+.feedback .mesIn .inpCon .inp .ti{ font-size: 16px; width:60px; display:inline-block;}
+.feedback .mesIn .inpCon .inp input{ width:242px; height:38px; line-height: 38px; padding:0 5px; border:1px solid #ccc;}
+.feedback .mesIn .mes{ margin-left: 75px;}
+.feedback .mesIn .mes .ti{ display:block; font-size: 16px; margin-bottom: 15px; margin-top: 38px;}
+.feedback .mesIn .mes textarea{ width:560px; height:180px; border:1px solid #ccc; padding:10px; font-size: 14px;}
+.feedback .mesIn .btn{ overflow:hidden;}
+.feedback .mesIn .btn .sub{ width:112px; height:30px; line-height: 30px; margin-top: 15px; float:right; background-color: #fb0808; font-size: 16px; color:#fff; cursor:pointer;}
